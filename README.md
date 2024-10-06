@@ -1,2 +1,4 @@
-# lee-filtering-cuda
-Implementation of a Lee filter for Sentinel 2 Multispectral Imagery using CUDA.
+# Implementation of a Lee Filter for speckle noise on CUDA and CPU
+Speckle noise is prevalent in Sentinel 2 Multispectral Imagery.<br /> 
+This project aims at using GPU accelerated libraries Numba and CuPY for implementing the Lee Filter while also comparing the CPU implementation using NumPY.<br />
+All results are presented in the PDF found in the folder.<br />
